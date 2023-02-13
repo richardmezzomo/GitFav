@@ -6,6 +6,58 @@
   <title>GitFav</title>
 </head>
 <body>
-  
+  <div id="app">
+    <header>
+      <img src="./assets/Gitfav.svg" alt="logo do gitfav">
+      <div class="search">
+        <label for="input-search">Enter the github username you want to favorite</label>
+        <input id="input-search" type="text" placeholder="Enter the github username you want to favorite">
+      </div>
+      <button>
+        <img src="./assets/star.svg" alt="">
+        Favorite
+      </button>
+    </header>
+    <table>
+       <thead>
+        <tr>
+          <th>User</th>
+          <th>Repositories</th>
+          <th>Followers</th>
+          <th></th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+          <td class="user">
+            <img src="https://github.com/richardmezzomo.png" alt="">
+            <a href="https://github.com/richardmezzomo" target="_blank">
+              <p>Richard B Mezzomo</p>
+              <span>richardmezzomo</span>
+            </a>
+          </td>
+          <td class="repositories">123</td>
+          <td class="followers">123</td>
+          <td>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="user">
+            <img src="https://github.com/maykbrito.png" alt="">
+            <a href="https://github.com/maykbrito" target="_blank">
+              <p>maykbrito</p>
+              <span>maykbrito</span>
+            </a>
+          </td>
+          <td class="repositories">123</td>
+          <td class="followers">123</td>
+          <td>
+            <button>Delete</button>
+          </td>
+        </tr>
+       </tbody>
+    </table>
+  </div>
 </body>
 </html>
