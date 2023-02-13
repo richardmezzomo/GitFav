@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GitFav</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="app">
     <header>
       <img src="./assets/Gitfav.svg" alt="logo do gitfav">
       <div class="search">
-        <label for="input-search">Enter the github username you want to favorite</label>
+        <label class="sr-only" for="input-search">Enter the github username you want to favorite</label>
         <input id="input-search" type="text" placeholder="Enter the github username you want to favorite">
+        <button class="btn-search">
+          <img src="./assets/star.svg" alt="">
+          Favorite
+        </button>
       </div>
-      <button>
-        <img src="./assets/star.svg" alt="">
-        Favorite
-      </button>
+    
     </header>
     <table>
        <thead>
