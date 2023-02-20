@@ -66,6 +66,8 @@ export class FavoritesView extends Favorites {
   }
 
   update() {
+    this.emptyState()
+
    this.removeAllTr()
 
     this.entries.forEach(user => {
@@ -118,5 +120,13 @@ export class FavoritesView extends Favorites {
     this.tbody.querySelectorAll('tr').forEach((tr) => {
       tr.remove()
     });
+  }
+
+  emptyState() {
+    if (this.entries.length === 0) {
+      this.root.querySelector('.empty-state').classList.remove('hide')
+    } else {
+      this.root.querySelector('.empty-state').classList.add('hide')
+    }
   }
 }
