@@ -61,11 +61,6 @@ header {
   margin-bottom: 8.7rem;
 }
 
-div .table {
-  border-radius: 1.2rem;
-  border: 1px solid var(--light-blue);
-}
-
 .search {
   display: flex;
   align-items: center;
@@ -120,12 +115,18 @@ div .table {
   width: 5.6rem;
 }
 
+.table {
+  border: 1px solid var(--light-blue);
+  border-radius: 1.2rem;
+  overflow: hidden;
+
+  max-height: 68.8rem;
+  overflow-y: overlay;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
-  width: 100%;
-  border-radius: 1.2rem;
-  overflow: hidden;
 }
 
 table * {
@@ -196,7 +197,7 @@ td button:hover {
   justify-content: center;
   gap: 6rem;
 
-  margin: 21rem auto 28.7rem;
+  margin: 20rem auto 20.7rem;
 }
 
 .no-favs img {
@@ -206,7 +207,6 @@ td button:hover {
 
 .no-favs h2 {
   font-size: 4rem;
-  line-height: 2.5rem;
   color: var(--no-favs-color);
 }
 
