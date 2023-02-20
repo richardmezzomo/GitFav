@@ -11,11 +11,10 @@ If the user tries to enter a non-existent profile, a message will appear on the 
 ## Demonstration
 
 Home page without any favorite profile:
-![WhatsApp Image 2023-02-20 at 14 36 09](https://user-images.githubusercontent.com/113696751/220174163-dd8c9525-8cf2-4004-93d4-1864b3a2614c.jpeg)
-
+![WhatsApp Image 2023-02-20 at 14 34 59](https://user-images.githubusercontent.com/113696751/220174242-83e387a7-49af-42b3-8171-7c7bfcae29bf.jpeg)
 
 Application with registered favorite profiles:
-![WhatsApp Image 2023-02-20 at 14 34 59](https://user-images.githubusercontent.com/113696751/220174242-83e387a7-49af-42b3-8171-7c7bfcae29bf.jpeg)
+![WhatsApp Image 2023-02-20 at 14 36 09](https://user-images.githubusercontent.com/113696751/220174163-dd8c9525-8cf2-4004-93d4-1864b3a2614c.jpeg)
 
 ## Learnings
 
